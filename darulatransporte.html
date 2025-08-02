@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darula Transporte & Logistik</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow p-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-blue-600">Darula Transporte & Logistik</h1>
+    <nav class="space-x-4">
+      <a href="#start" class="text-gray-700 hover:text-blue-600">Start</a>
+      <a href="#leistungen" class="text-gray-700 hover:text-blue-600">Leistungen</a>
+      <a href="#unternehmen" class="text-gray-700 hover:text-blue-600">Unternehmen</a>
+      <a href="#fuhrpark" class="text-gray-700 hover:text-blue-600">Fuhrpark</a>
+      <a href="#karriere" class="text-gray-700 hover:text-blue-600">Karriere</a>
+      <a href="#kontakt" class="text-gray-700 hover:text-blue-600">Kontakt</a>
+    </nav>
+  </header>
+
+  <!-- Startseite -->
+  <section id="start" class="bg-blue-50 p-10 text-center">
+    <h2 class="text-4xl font-semibold mb-4">Zuverlässig. Pünktlich. Sicher.</h2>
+    <p class="text-lg mb-6">Ihre Experten für Transporte mit 3,5t und 7,5t Fahrzeugen – keine Umzüge, keine Spielereien.</p>
+    <a href="#kontakt" class="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Jetzt anfragen</a>
+  </section>
+
+  <!-- Leistungen -->
+  <section id="leistungen" class="p-10 bg-white">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Unsere Leistungen</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">3,5t Transporte</h4>
+        <p>Flexibel, schnell und ideal für kleine bis mittlere Liefermengen.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">7,5t Transporte</h4>
+        <p>Optimal für größere Sendungen – zuverlässig und termingerecht.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unternehmen -->
+  <section id="unternehmen" class="bg-gray-50 p-10">
+    <h3 class="text-2xl font-semibold mb-4 text-center">Über uns</h3>
+    <p class="max-w-3xl mx-auto text-center text-lg">
+      Wir sind ein spezialisiertes Transport- und Logistikunternehmen mit Fokus auf 3,5t und 7,5t Transporte. Keine Umzüge oder sonstige Leistungen – bei uns steht zuverlässiger Frachttransport im Mittelpunkt. Unsere Werte: Pünktlichkeit, Transparenz und Sicherheit.
+    </p>
+  </section>
+
+  <!-- Fuhrpark -->
+  <section id="fuhrpark" class="p-10 bg-white">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Unser Fuhrpark</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">3,5t Fahrzeuge</h4>
+        <p>Ideal für Innenstadtlieferungen und kleine bis mittlere Transportaufträge.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">7,5t Fahrzeuge</h4>
+        <p>Für größere Sendungen mit höchster Zuverlässigkeit im regionalen und nationalen Verkehr.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Karriere -->
+  <section id="karriere" class="bg-gray-50 p-10">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Karriere</h3>
+    <div class="max-w-2xl mx-auto space-y-4 text-center">
+      <p class="text-lg">Werde Teil eines zuverlässigen Teams! Wir suchen engagierte Fahrer (m/w/d) mit Führerscheinklasse C1/C1E.</p>
+      <a href="#kontakt" class="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Jetzt bewerben</a>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="bg-white p-10">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Kontakt</h3>
+    <div class="max-w-xl mx-auto space-y-4 text-center">
+      <div class="flex items-center justify-center space-x-2">
+        <span class="font-semibold">📞</span>
+        <span>+49 123 456789</span>
+      </div>
+      <div class="flex items-center justify-center space-x-2">
+        <span class="font-semibold">📧</span>
+        <span>kontakt@darula-transporte.de</span>
+      </div>
+      <div class="flex items-center justify-center space-x-2">
+        <span class="font-semibold">📍</span>
+        <span>Musterstraße 1, 12345 Musterstadt</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-6 text-center">
+    &copy; <span id="year"></span> Darula Transporte & Logistik. Alle Rechte vorbehalten.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
